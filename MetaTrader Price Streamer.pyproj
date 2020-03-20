@@ -11,7 +11,7 @@
     <OutputPath>.</OutputPath>
     <Name>MetaTrader Price Streamer</Name>
     <RootNamespace>MetaTrader Price Streamer</RootNamespace>
-    <InterpreterId>Global|ContinuumAnalytics|Anaconda37-64</InterpreterId>
+    <InterpreterId>CondaEnv|CondaEnv|Anaconda3</InterpreterId>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
