@@ -14,10 +14,9 @@ print(mt5.version())
 
 gbpusd_ticks = mt5.copy_ticks_from("GBPUSD", datetime.now(), 10000, mt5.COPY_TICKS_ALL)
 
-now = datetime.now()
-
 print('gbpusd_ticks(', len(gbpusd_ticks), ')')
 for val in gbpusd_ticks[:5000]: print(val)
+
 
 
 
